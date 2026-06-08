@@ -1,0 +1,140 @@
+[2026-05-24 21:19:35] [IP: Server] Starting Vinyl Server on port 2910...
+[2026-05-24 21:19:35] [IP: Server] Vinyl Server started successfully. Waiting for clients...
+[2026-05-24 21:19:41] [IP: 127.0.0.1] Client connected.
+[2026-05-24 21:19:41] [IP: 127.0.0.1] Received: {"type":"GET_ALL"}
+[2026-05-24 21:20:42] [IP: 127.0.0.1] Client connected.
+[2026-05-24 21:20:42] [IP: 127.0.0.1] Received: {"type":"GET_ALL"}
+[2026-05-24 21:20:46] [IP: 127.0.0.1] Received: {"type":"REMOVE","vinyl":{"title":"The Dark Side of the Moon","artist":"Pink Floyd","releaseYear":1973,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:20:46] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:46] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:48] [IP: 127.0.0.1] Received: {"type":"RESERVE","username":"Robot-Alice","vinyl":{"title":"Random Access Memories","artist":"Daft Punk","releaseYear":2013,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:20:48] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:48] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:49] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"Thriller","artist":"Michael Jackson","releaseYear":1982,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:20:50] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Rumours","artist":"Fleetwood Mac","releaseYear":1977,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:20:50] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:50] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:51] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Random Access Memories","artist":"Daft Punk","releaseYear":2013,"state":"Reserved","reservingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:20:51] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:51] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:51] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"Random Access Memories","artist":"Daft Punk","releaseYear":2013,"state":"Borrowed","borrowingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:20:51] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:51] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:51] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"Abbey Road","artist":"The Beatles","releaseYear":1969,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:20:51] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"Rumours","artist":"Fleetwood Mac","releaseYear":1977,"state":"Borrowed","borrowingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:20:51] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:51] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:52] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Random Access Memories","artist":"Daft Punk","releaseYear":2013,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:20:52] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:52] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:52] [IP: 127.0.0.1] Received: {"type":"REMOVE","vinyl":{"title":"Thriller","artist":"Michael Jackson","releaseYear":1982,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:20:52] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:52] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:52] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Abbey Road","artist":"The Beatles","releaseYear":1969,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:20:52] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:52] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:53] [IP: 127.0.0.1] Received: {"type":"RESERVE","username":"Robot-Alice","vinyl":{"title":"Rumours","artist":"Fleetwood Mac","releaseYear":1977,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:20:53] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:53] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:54] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"Rumours","artist":"Fleetwood Mac","releaseYear":1977,"state":"Reserved","reservingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:20:54] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Abbey Road","artist":"The Beatles","releaseYear":1969,"state":"Borrowed","borrowingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:20:54] [IP: 127.0.0.1] Received: {"type":"RESERVE","username":"Robot-Alice","vinyl":{"title":"Rumours","artist":"Fleetwood Mac","releaseYear":1977,"state":"Reserved","reservingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:20:55] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Abbey Road","artist":"The Beatles","releaseYear":1969,"state":"Borrowed","borrowingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:20:56] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"Rumours","artist":"Fleetwood Mac","releaseYear":1977,"state":"Reserved","reservingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:20:56] [IP: 127.0.0.1] Received: {"type":"REMOVE","vinyl":{"title":"Rumours","artist":"Fleetwood Mac","releaseYear":1977,"state":"Reserved","reservingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:20:56] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:56] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:57] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Rumours","artist":"Fleetwood Mac","releaseYear":1977,"state":"Reserved","reservingUserId":"Robot-Alice","markedForRemoval":true}}
+[2026-05-24 21:20:57] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:57] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:57] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"Rumours","artist":"Fleetwood Mac","releaseYear":1977,"state":"Borrowed","borrowingUserId":"Robot-Alice","markedForRemoval":true}}
+[2026-05-24 21:20:57] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:57] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:20:58] [IP: 127.0.0.1] Client disconnected.
+[2026-05-24 21:20:59] [IP: 127.0.0.1] Client disconnected.
+[2026-05-24 21:21:01] [IP: 127.0.0.1] Client connected.
+[2026-05-24 21:21:01] [IP: 127.0.0.1] Received: {"type":"GET_ALL"}
+[2026-05-24 21:21:06] [IP: 127.0.0.1] Client disconnected.
+[2026-05-24 21:21:29] [IP: Server] Starting Vinyl Server on port 2910...
+[2026-05-24 21:21:29] [IP: Server] Vinyl Server started successfully. Waiting for clients...
+[2026-05-24 21:21:33] [IP: 127.0.0.1] Client connected.
+[2026-05-24 21:21:33] [IP: 127.0.0.1] Received: {"type":"GET_ALL"}
+[2026-05-24 21:21:38] [IP: 127.0.0.1] Client connected.
+[2026-05-24 21:21:38] [IP: 127.0.0.1] Received: {"type":"GET_ALL"}
+[2026-05-24 21:21:41] [IP: 127.0.0.1] Received: {"type":"REMOVE","vinyl":{"title":"Rumours","artist":"Fleetwood Mac","releaseYear":1977,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:21:41] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:21:41] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:21:44] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"Random Access Memories","artist":"Daft Punk","releaseYear":2013,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:21:47] [IP: 127.0.0.1] Received: {"type":"RESERVE","username":"Robot-Alice","vinyl":{"title":"Random Access Memories","artist":"Daft Punk","releaseYear":2013,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:21:47] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:21:47] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:21:48] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Abbey Road","artist":"The Beatles","releaseYear":1969,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:21:48] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:21:48] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:21:50] [IP: 127.0.0.1] Received: {"type":"REMOVE","vinyl":{"title":"Thriller","artist":"Michael Jackson","releaseYear":1982,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:21:50] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:21:50] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:21:53] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"Abbey Road","artist":"The Beatles","releaseYear":1969,"state":"Borrowed","borrowingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:21:53] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:21:53] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:21:54] [IP: 127.0.0.1] Received: {"type":"REMOVE","vinyl":{"title":"Random Access Memories","artist":"Daft Punk","releaseYear":2013,"state":"Reserved","reservingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:21:54] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:21:54] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:30:47] [IP: Server] Starting Vinyl Server on port 2910...
+[2026-05-24 21:30:47] [IP: Server] Vinyl Server started successfully. Waiting for clients...
+[2026-05-24 21:30:53] [IP: 127.0.0.1] Client connected.
+[2026-05-24 21:30:53] [IP: 127.0.0.1] Received: {"type":"GET_ALL"}
+[2026-05-24 21:30:59] [IP: 127.0.0.1] Client connected.
+[2026-05-24 21:30:59] [IP: 127.0.0.1] Received: {"type":"GET_ALL"}
+[2026-05-24 21:31:03] [IP: 127.0.0.1] Received: {"type":"RESERVE","username":"Robot-Alice","vinyl":{"title":"Thriller","artist":"Michael Jackson","releaseYear":1982,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:31:03] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:03] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:06] [IP: 127.0.0.1] Received: {"type":"RESERVE","username":"Robot-Alice","vinyl":{"title":"Thriller","artist":"Michael Jackson","releaseYear":1982,"state":"Reserved","reservingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:31:07] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"The Dark Side of the Moon","artist":"Pink Floyd","releaseYear":1973,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:31:09] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Abbey Road","artist":"The Beatles","releaseYear":1969,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:31:09] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:09] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:09] [IP: 127.0.0.1] Received: {"type":"RESERVE","username":"Robot-Alice","vinyl":{"title":"Abbey Road","artist":"The Beatles","releaseYear":1969,"state":"Borrowed","borrowingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:31:09] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:09] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:10] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Random Access Memories","artist":"Daft Punk","releaseYear":2013,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:31:10] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:10] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:10] [IP: 127.0.0.1] Received: {"type":"REMOVE","vinyl":{"title":"Rumours","artist":"Fleetwood Mac","releaseYear":1977,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:31:10] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:10] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:12] [IP: 127.0.0.1] Received: {"type":"REMOVE","vinyl":{"title":"Abbey Road","artist":"The Beatles","releaseYear":1969,"state":"Borrowed \u0026 Reserved","borrowingUserId":"Robot-Alice","reservingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:31:12] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:12] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:13] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"The Dark Side of the Moon","artist":"Pink Floyd","releaseYear":1973,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:31:14] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"The Dark Side of the Moon","artist":"Pink Floyd","releaseYear":1973,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:31:14] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"The Dark Side of the Moon","artist":"Pink Floyd","releaseYear":1973,"state":"Available","markedForRemoval":false}}
+[2026-05-24 21:31:14] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:14] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:16] [IP: 127.0.0.1] Received: {"type":"RESERVE","username":"Robot-Alice","vinyl":{"title":"Thriller","artist":"Michael Jackson","releaseYear":1982,"state":"Reserved","reservingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:31:16] [IP: 127.0.0.1] Received: {"type":"REMOVE","vinyl":{"title":"Thriller","artist":"Michael Jackson","releaseYear":1982,"state":"Reserved","reservingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:31:16] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:16] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:18] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Abbey Road","artist":"The Beatles","releaseYear":1969,"state":"Borrowed \u0026 Reserved","borrowingUserId":"Robot-Alice","reservingUserId":"Robot-Alice","markedForRemoval":true}}
+[2026-05-24 21:31:19] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Abbey Road","artist":"The Beatles","releaseYear":1969,"state":"Borrowed \u0026 Reserved","borrowingUserId":"Robot-Alice","reservingUserId":"Robot-Alice","markedForRemoval":true}}
+[2026-05-24 21:31:19] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"Abbey Road","artist":"The Beatles","releaseYear":1969,"state":"Borrowed \u0026 Reserved","borrowingUserId":"Robot-Alice","reservingUserId":"Robot-Alice","markedForRemoval":true}}
+[2026-05-24 21:31:19] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:19] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:21] [IP: 127.0.0.1] Received: {"type":"RESERVE","username":"Robot-Alice","vinyl":{"title":"Thriller","artist":"Michael Jackson","releaseYear":1982,"state":"Reserved","reservingUserId":"Robot-Alice","markedForRemoval":true}}
+[2026-05-24 21:31:21] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Random Access Memories","artist":"Daft Punk","releaseYear":2013,"state":"Borrowed","borrowingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:31:24] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"The Dark Side of the Moon","artist":"Pink Floyd","releaseYear":1973,"state":"Borrowed","borrowingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:31:24] [IP: 127.0.0.1] Received: {"type":"REMOVE","vinyl":{"title":"Random Access Memories","artist":"Daft Punk","releaseYear":2013,"state":"Borrowed","borrowingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:31:24] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:24] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:25] [IP: 127.0.0.1] Received: {"type":"RESERVE","username":"Robot-Alice","vinyl":{"title":"The Dark Side of the Moon","artist":"Pink Floyd","releaseYear":1973,"state":"Borrowed","borrowingUserId":"Robot-Alice","markedForRemoval":false}}
+[2026-05-24 21:31:25] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:25] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:26] [IP: 127.0.0.1] Received: {"type":"RESERVE","username":"Robot-Alice","vinyl":{"title":"Random Access Memories","artist":"Daft Punk","releaseYear":2013,"state":"Borrowed","borrowingUserId":"Robot-Alice","markedForRemoval":true}}
+[2026-05-24 21:31:26] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"Random Access Memories","artist":"Daft Punk","releaseYear":2013,"state":"Borrowed","borrowingUserId":"Robot-Alice","markedForRemoval":true}}
+[2026-05-24 21:31:26] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:26] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:28] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Thriller","artist":"Michael Jackson","releaseYear":1982,"state":"Reserved","reservingUserId":"Robot-Alice","markedForRemoval":true}}
+[2026-05-24 21:31:28] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:28] [IP: 127.0.0.1] Broadcasting state update to client.
+[2026-05-24 21:31:28] [IP: 127.0.0.1] Client disconnected.
+[2026-05-24 21:31:29] [IP: 127.0.0.1] Client disconnected.

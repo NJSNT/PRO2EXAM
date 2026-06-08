@@ -1,0 +1,9 @@
+[2026-05-25 02:32:45] [IP: Server] Starting Vinyl Server on port 2910...
+[2026-05-25 02:32:45] [IP: Server] Vinyl Server started successfully. Waiting for clients...
+[2026-05-25 02:32:50] [IP: 127.0.0.1] Client connected.
+[2026-05-25 02:32:50] [IP: 127.0.0.1] Received: {"type":"GET_ALL"}
+[2026-05-25 02:33:00] [IP: 127.0.0.1] Client connected.
+[2026-05-25 02:33:00] [IP: 127.0.0.1] Received: {"type":"GET_ALL"}
+[2026-05-25 02:33:06] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"The Dark Side of the Moon","artist":"Pink Floyd","releaseYear":1973,"state":"Available","markedForRemoval":false}}
+[2026-05-25 02:33:07] [IP: 127.0.0.1] Received: {"type":"BORROW","username":"Robot-Alice","vinyl":{"title":"Random Access Memories","artist":"Daft Punk","releaseYear":2013,"state":"Available","markedForRemoval":false}}
+[2026-05-25 02:33:08] [IP: 127.0.0.1] Received: {"type":"RETURN","username":"Robot-Alice","vinyl":{"title":"Rumours","artist":"Fleetwood Mac","releaseYear":1977,"state":"Available","markedForRemoval":false}}
